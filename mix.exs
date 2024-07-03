@@ -27,7 +27,7 @@ defmodule BroadwaySqs.MixProject do
   defp deps do
     [
       {:broadway, "~> 1.0"},
-      {:ex_aws_sqs, "~> 3.2.1 or ~> 3.3"},
+      {:ex_aws_sqs, github: "elijahkim/ex_aws_sqs"},
       {:nimble_options, "~> 0.3.7 or ~> 0.4 or ~> 1.0"},
       {:telemetry, "~> 0.4.3 or ~> 1.0"},
       {:saxy, "~> 1.1"},
